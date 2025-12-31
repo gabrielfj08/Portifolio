@@ -1,0 +1,46 @@
+export default function Home(){
+    return(
+        <section id="home" className="min-h-screen flex items-center">
+            <div className="container grid md:grid-cols-2 gap-16">
+
+                {/*Texto Principal*/}
+                <div className="flex flex-col justify-center gap-6">
+                    <h1>Gabriel Ferreira Jorge</h1>
+                    <span className="text-primary text-xl font-medium">Desenvolvedor Web Júnior</span>
+
+                    <p className="max-w-xl">
+                    Construo interfaces claras, performáticas e fáceis de manter.
+                    Valorizo código simples, decisões consistentes e boa experiência do usuário.
+                    </p>
+
+                    {/*Tecnologias*/}
+                    <div className="flex flex-wrap gap-3 mt-4">
+                        {['JavaScript','React','TypeScript','TailWind CSS','Docker'].map(tech => (
+                            <span
+                            key={tech}
+                            className="px-4 py-2 text-sm rounded-full bg-surface border/50">
+                                {tech}
+                            </span>
+                        ))}
+                    </div>
+                    
+                    {/*CTAs*/}
+                    <div className="flex gap-4 mt-8">
+                        <a href="#projetos" className="px-6 py-3 rounded-md bg-surface font-medium hover:opacity-90 transition">
+                            Ver Projetos
+                        </a>
+                        <a href="#contato" className="px-6 py-3 rounded-md border border-white/20 hover:border-primary transition">
+                            Entrar em contato
+                        </a>
+                    </div>
+
+                    {/* Espaço visual (futuro destaque) */}
+                    <div className="hidden md:flex items-center justify-center text-muted text-sm">
+                    {/* Aqui futuramente pode entrar uma imagem, mockup ou animação */}
+                    {/* Por enquanto, deixamos o respiro visual */}
+                    </div>
+                </div>
+            </div>
+        </section>
+    )
+}
