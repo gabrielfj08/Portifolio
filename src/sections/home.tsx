@@ -1,6 +1,6 @@
 export default function Home(){
     return(
-        <section id="home" className="min-h-screen flex items-center">
+        <section id="home" className="min-h-screen flex items-center bg-zinc-900">
             <div className="container grid md:grid-cols-2 gap-16">
 
                 {/*Texto Principal*/}
@@ -26,10 +26,10 @@ export default function Home(){
                     
                     {/*CTAs*/}
                     <div className="flex gap-4 mt-8">
-                        <a href="#projetos" className="px-6 py-3 rounded-md bg-surface font-medium hover:opacity-90 transition">
+                        <a href="#projetos" className="px-6 py-3 rounded-md bg-surface font-medium hover:-translate-y-0.5 hover:opacity-90 active:translate-y-0 transition">
                             Ver Projetos
                         </a>
-                        <a href="#contato" className="px-6 py-3 rounded-md border border-white/20 hover:border-primary transition">
+                        <a href="#contato" className="px-6 py-3 rounded-md border border-white/20 hover:-translate-y-0.5 hover:border-primary active:translate-y-0 transition">
                             Entrar em contato
                         </a>
                     </div>

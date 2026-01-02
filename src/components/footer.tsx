@@ -1,31 +1,15 @@
 export default function Footer() {
-    return (
-        <footer className="footer">
-            <div className="footer-links">
-                <a
-                href="https://www.linkedin.com/in/gabriel-jorge08"
-                target="_blank"
-                rel="noreferrer"
-                >
-                LinkedIn
-                </a>
+  return (
+    <footer className="py-12 border-t border-white/10 bg-zinc-950">
+      <div className="container flex flex-col items-center gap-2 text-sm text-zinc-400">
+        <p>
+          © {new Date().getFullYear()} Gabriel Ferreira Jorge
+        </p>
 
-                <a
-                href="https://github.com/gabrielfj08"
-                target="_blank"
-                rel="noreferrer"
-                >
-                GitHub
-                </a>
-
-                <a href="mailto:gabriel.jorgef08@gmail.com">
-                Email
-                </a>
-            </div>
-
-            <p>
-                © {new Date().getFullYear()} Gabriel Ferreira Jorge
-            </p>
-        </footer>
-    )
+        <p className="text-xs text-zinc-500">
+          Desenvolvedor Frontend · React & TypeScript
+        </p>
+      </div>
+    </footer>
+  )
 }

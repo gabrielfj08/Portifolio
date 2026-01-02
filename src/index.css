@@ -11,15 +11,15 @@ section {
 }
 
 h1 {
-  @apply text-4xl md:text-5xl font-bold;
+  @apply text-4xl md:text-6xl font-bold;
 }
 
 h2 {
-  @apply text-2xl md:text-3xl font-semibold;
+  @apply text-2xl md:text-4xl font-semibold;
 }
 
 p {
-  @apply text-muted leading-relaxed;
+  @apply text-muted leading-relaxed max-w-2xl tracking-tight;
 }
 .container {
   @apply max-w-6xl mx-auto px-6;
