@@ -31,7 +31,7 @@ const projetos: Projeto[] = [
     description: 'Participação no frontend desenvolvido em ambiente profissional com Docker e WSL, focado em padronização de ambiente, facilidade de desenvolvimento e manutenção.',
     problem: 'A necessidade de um ambiente de desenvolvimento consistente, leve e replicável para o site institucional, evitando conflitos de dependências e problemas entre sistemas.',
     solution: 'Configuração de ambiente isolado utilizando Docker e docker-compose integrado ao WSL, garantindo consistência entre ambientes, controle de portas e facilidade de execução do projeto.',
-    stack: ['HTML', 'CSS', 'JavaScript', 'Docker', 'Docker Compose', 'WSL'],
+    stack: ['React', 'TypeScript', 'JavaScript', 'Docker', 'Docker Compose', 'WSL'],
     link: 'https://www.adsumtec.com.br/'
     }
 

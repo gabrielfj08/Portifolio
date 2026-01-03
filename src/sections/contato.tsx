@@ -64,7 +64,7 @@ export default function Contato() {
 
         {/* Área visual / respiro */}
         <div className="hidden md:flex justify-center">
-          <div className="w-40 h-40 rounded-full border border-white/10 flex items-center justify-center text-zinc-500 text-sm">
+          <div className="w-45 h-40 rounded-full border border-white/10 flex items-center justify-center text-zinc-500 text-sm">
             Disponível para conversar
           </div>
         </div>

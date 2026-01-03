@@ -2,7 +2,7 @@ export default function Home(){
     return(
         <section id="home" className="min-h-screen flex items-center bg-zinc-900">
             <div className="container grid md:grid-cols-2 gap-16">
-
+            
                 {/*Texto Principal*/}
                 <div className="flex flex-col justify-center gap-6">
                     <h1>Gabriel Ferreira Jorge</h1>
@@ -34,10 +34,15 @@ export default function Home(){
                         </a>
                     </div>
 
-                    {/* Espaço visual (futuro destaque) */}
                     <div className="hidden md:flex items-center justify-center text-muted text-sm">
-                    {/* Aqui futuramente pode entrar uma imagem, mockup ou animação */}
-                    {/* Por enquanto, deixamos o respiro visual */}
+                        <div className="
+                        absolute inset-y-0 right-0 w-1/2
+                        bg-gradient-to-l
+                        from-sky-500/10
+                        via-sky-500/5
+                        to-transparent
+                        pointer-events-none
+                        " />
                     </div>
                 </div>
             </div>
