@@ -43,7 +43,9 @@ portifolio/
      ├─ App.tsx
      ├─ Index.css
      └─ main.tsx
-    
+
+---
+ 
 ## 🛠️ Como rodar o projeto localmente
 
 Pré-requisitos
@@ -60,6 +62,8 @@ Ambiente de desenvolvimento
 O projeto estará disponível em:
 - 👉 http://localhost:5173
 
+---
+
 ## 📌 Objetivo do projeto
 
 Este portfólio foi criado com o objetivo de:
@@ -67,6 +71,8 @@ Este portfólio foi criado com o objetivo de:
 - Consolidar conhecimentos em frontend moderno
 - Servir como vitrine de projetos e evolução técnica
 - Facilitar o contato com recrutadores e desenvolvedores
+
+---
 
 ## 📫 Contato
 
