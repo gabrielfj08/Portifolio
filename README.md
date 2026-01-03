@@ -1,73 +1,75 @@
-# React + TypeScript + Vite
+# 🌐 Portfólio • Gabriel Ferreira Jorge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal desenvolvido para apresentar meus projetos, habilidades e forma de pensar frontend de maneira clara, objetiva e profissional.
 
-Currently, two official plugins are available:
+O foco é demonstrar organização de código, boas práticas, performance e atenção à experiência do usuário.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🧑‍💻 Sobre mim
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sou **Desenvolvedor Web Júnior**, apaixonado por tecnologia e desafios.  
+Gosto de construir interfaces modernas, performáticas e fáceis de manter, sempre priorizando código simples, decisões consistentes e boa experiência do usuário.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Tecnologias utilizadas
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **JavaScript**
+- **TypeScript**
+- **React**
+- **Tailwind CSS**
+- **Vite**
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## ✨ Funcionalidades
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- Layout responsivo e minimalista  
+- Header fixo com navegação suave  
+- Seções bem definidas (Home, Projetos, Sobre, Contato)  
+- Estilo visual focado em clareza e leitura  
+- Estrutura preparada para escalar com novos projetos  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📂 Estrutura do projeto
+
+portifolio/
+ ├─ src/
+     ├─ components/
+     ├─ sections/
+     ├─ App.css
+     ├─ App.tsx
+     ├─ Index.css
+     └─ main.tsx
+    
+## 🛠️ Como rodar o projeto localmente
+
+Pré-requisitos
+- Node.js (versão LTS)
+- npm ou yarn
+
+Instalação
+- npm install
+
+Ambiente de desenvolvimento
+- npm run dev
+
+
+O projeto estará disponível em:
+- 👉 http://localhost:5173
+
+## 📌 Objetivo do projeto
+
+Este portfólio foi criado com o objetivo de:
+
+- Consolidar conhecimentos em frontend moderno
+- Servir como vitrine de projetos e evolução técnica
+- Facilitar o contato com recrutadores e desenvolvedores
+
+## 📫 Contato
+
+- LinkedIn: (adicione o link aqui)
+- GitHub: https://github.com/seu-usuario
+- Email: gabriel.jorgef08@gmail.com
