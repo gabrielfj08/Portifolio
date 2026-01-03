@@ -24,7 +24,7 @@ const projetos: Projeto[] = [
     problem: 'Necessidade de organizar metas e tarefas de forma visual e simples, ao mesmo tempo em que praticava lógica, estruturação e manipulação do DOM.',
     solution: 'Criação de uma aplicação funcional com quadros personalizados, metas com subtarefas, modais interativos e layout responsivo, focando em usabilidade e organização do código.',
     stack: ['HTML', 'CSS', 'JavaScript', 'Git', 'GitHub'],
-    link: 'https://gabrielfj08.github.io/focustrack/'
+    link: 'https://github.com/gabrielfj08/FocusTrack'
     },
     {
     title: 'Website Corporativo – Adsumtec',
